@@ -216,3 +216,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Datasets
+data/raw/
+data/interim/
+data/processed/
+
+# Model weights and checkpoints
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Training and experiment outputs
+runs/
+outputs/
+artifacts/
+wandb/
+mlruns/
+
+# Local configuration
+.env
+.env.*
